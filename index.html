@@ -1,334 +1,117 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
-	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>AkshathaVydula</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<!-- The body is the location where your site's content will go -->
-	<body class="is-preload">
+<head>
+    <title>AkshathaVydula</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #menu {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        #menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        #menu li {
+            margin: 0 15px;
+        }
+        #menu a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #menu a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 60px 20px;
+            margin-top: 50px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
 
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
-			<div id="wrapper">
+    <!-- Navigation Menu -->
+    <div id="menu">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#meetings">Meetings</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 
-					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
-						<!-- This is the main content of the front page -->
-						<div class="content">
-							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Akshatha K Vydula
-								</h1>
-								<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
+    <!-- Sections -->
+    <div id="main">
+        <div class="section" id="about">
+            <h1>Akshatha K Vydula</h1>
+            <img src="images/akshatha_VLA.jpg" style="width:240px; height:360px; object-fit: cover;">
+            <p>Ph.D. Astrophysics Student <br> School of Earth and Space Exploration, Arizona State University</p>
+            <p><a href="images/Ak_Vydula_CV_Feb_2024.pdf" target="_blank">Click here for Curriculum Vitae</a></p>
+            <h2 class="major">About Me</h2>
+            <img src="images/mountain.jpg" alt=""/>
+            <p><b>Education:</b> I grew up in a small town in Karnataka, India. I went to high school in Raichur, and then moved to Bangalore for my undergrad in Electronics & Communication Engineering at RV College of Engineering. I graduated in 2020 ranking 3rd in the University, with my thesis on 'Search for Galactic and high redshift absorption lines with LOFAR'. I then moved to Tempe Arizona, where I am currently pursuing Ph.D. in Astrophysics at the <a href="https://loco.lab.asu.edu"> Low-Frequency Cosmology lab</a>, School of Earth and Space Exploration.</p>
+            <p><b>Research Interests:</b> My research falls in Radio Astronomy and Experimental Cosmology, specifically focusing on how the first stars and galaxies behaved during the Epoch of Reionization and Cosmic Dawn. Over the summers, I work at Los Alamos National Laboratory in New Mexico on measurement of Neutron lifetime using space-based Neutron Spectrometer.</p>
+            <p><b>Outside Work:</b> I like outdoors! If I am not analyzing Radio Astronomical data, I am hiking, backpacking or doing something adventurous like sky-diving. Moving to Arizona has made my outdoor-self very excited with its proximity to numerous trails. I am also getting trained in Krav Maga (an Israeli martial arts) and Kick Boxing on weekday evenings. I enjoy 60s music and religiously listen to NPR and NYT podcasts every single day!</p>
+        </div>
 
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
-								<img src="images/akshatha_VLA.jpg" style="width:240px; height:360px; object-fit: cover;">
-								<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
-								<p>
-									Ph.D. Astrophysics Student <br> School of Earth and Space Exploration, Arizona State University
-								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="images/Ak_Vydula_CV_Feb_2024.pdf" target="_blank">Click here for Curriculum Vitae</a>
-								</p>
-							</div>
-						</div>
-						<!-- This is the navigation menu -->
-						<nav>
-							<!-- This element makes an "Unordered List" -->
-							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
-									<a href="#about">About Me</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-								<li>
-									<a href="#community">Community</a>
-								</li>
+        <div class="section" id="research">
+            <h2 class="major">Research</h2>
+            <img src="images/lwa_field.jpg" alt=""/>
+            <p><b>Low Frequency Radio Recombination Lines</b><br> Radio Recombination lines are the type of spectral features due to electron transitions in a Rydberg atom. These lines help understand the star formation and measurement of density and temperature of the surrounding gas. I use data from EDGES to detect these unique spectral signatures.</p>
+            <p><b>Beam Calibration of LWA using Pulsar Gating</b><br> One of my major research interests is studying the phase of the Universe during the formation of the first stars and galaxies. I work with Very Large Array (VLA) and Long Wavelength Array (LWA) for making beam mapping measurements to improve our understanding of the instrument.</p>
+            <p><b>Measurement of Neutron lifetime using Space based Neutron Spectrometer</b><br> I am helping develop a third independent measurement using data from the Lunar Prospector mission. We make use of interactions between Cosmic rays and the lunar sub-surface that emit gravitationally bound neutrons.</p>
+            <p><b>Publications and Writing Samples:</b><br>
+                5. <a href="https://loco.lab.asu.edu/loco-memos/loco052.pdf">VLA 4-band beam width measurement using the holography observing mode</a><br>
+                4. <a href="https://loco.lab.asu.edu/loco-memos/loco051.pdf">Observing Campaign for LWA Beam measurements</a><br>
+                3. <a href="https://loco.lab.asu.edu/loco-memos/loco050.pdf">Sensitivity analysis of pulsar beam mapping with the LWA and VLA</a><br>
+                2. <a href="https://loco.lab.asu.edu/loco-memos/loco049.pdf">Beam Mapping of LWA using Pulsar Gating</a><br>
+                1. <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ad08ba/pdf">Low-Frequency Radio Recombination Lines Away From the Inner Galactic Plane</a><br>
+            </p>
+        </div>
 
-								<li>
-									<a href="#meetings">Meetings</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
-							</ul>
-						</nav>
-					</header>
+        <div class="section" id="community">
+            <h2 class="major">Community</h2>
+            <img src="images/sundial celebration.JPG" alt=""/>
+            <p><b>Teaching:</b><br>
+                1. Summer Sundial-2021 and Summer Sundial 2023: I helped design and teach a 2-week Astrophysics bootcamp for freshmen undergrads. Here's a <a href="https://youtu.be/zqprkNApiK0">short video</a> on it.<br>
+                2. Astro-India Program: I work with other grad students to design a 12-week Astrophysics curriculum for high-school students in India.<br>
+                3. Radio Astronomy Bootcamp: I helped design and teach a week-long evening class introducing Radio Astronomy to undergraduate students.
+            </p>
+            <img src="images/RA_bootcamp.jpg" alt=""/>
+            <p><b>Outreach:</b><br>
+                1. Podcast on pivoting career from Engineering to Astrophysics: <a href="https://open.spotify.com/episode/5cwZB5A3I3GVmGQATgfVoI?si=IEvH31h8RVGoypmGalkzUg&utm_source=copy-link&nd=1">Engineer turned Astrophysicist</a><br>
+                2. Interview on Understanding the Early Universe using 21cm signal: <a href="https://forestvoicesofindia.com/2023/10/13/the-early-universe-with-akshatha-vydula/">Forest Voices of India</a><br>
+                3. SESE Outreach: I help organize outreach activities for the Low Frequency Cosmology lab at SESE public engagement events.
+            </p>
+            <p><b>Grad School Resources:</b><br>
+                1. Megasheet for shortlisting and applying for schools: <a href="https://docs.google.com/spreadsheets/d/1caCiPw9SUF2bFB8wMgFPLeZo3s-7ne7o/edit?usp=share_link&ouid=105074939679655579913&rtpof=true&sd=true"> (sample only)</a>
+            </p>
+        </div>
 
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
-					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<span class="image main">
-								<img src="images/mountain.jpg" alt=""/>
-							</span>
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
-							<p>
-								<!-- Items contained in <b> tags are bolded! -->
-			
-								<b>Education:</b>
-								I grew up in a small town in Karnataka, India. I went to high school in Raichur, and then moved to Bangalore for my undergrad in Electronics & Comminication Enginnering at RV College of Engineering. I graduated in 2020 ranking 3rd in the University, with my thesis on 'Search for Galactic and high redshift absorption lines with LOFAR'.
-								 I then moved to Tempe Arizona, where I am currently pursuing Ph.D. in Astrophysics at the <a href="https://loco.lab.asu.edu"> Low-Frequency Cosmology lab</a>, School of Earth and Space Exploration.  
-							</p>
-							<p>
-								<b>Research Interests:</b>
-								My research falls in Radio Astronomy and Experimental Cosmology, specifically focusing on how the first stars and galaxies behaved during the Epoch of Reionization and Cosmic Dawn. 
-								 <br>
-								Over the summers, I work at Los Alamos National Laboratory in New Mexico on measurement of Neutron lifetime using space-based Neutron Spectrometer. 
-							</p>
-							<p>
-								<b>Outside Work:</b>
-								I like outdoors! If I am not analyzing Radio Astronomical data, I am hiking, back-packing or doing something adventurous like sky-diving. Moving to Arizona has made my outdoor-self very excited with its proximity to numerous trails. I am also getting trained in Krav Maga (an Israili martial arts) and Kick Boxing on weekday evenings. I enjoy 60s music and religiously listen to NPR and NYT podcasts every single day!
-						        </p>
-						</article>
-
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<span class="image main">
-								<img src="images/lwa_field.jpg" alt=""/>
-							</span>
-							<p>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-
-								-->
-								<b>Low Frequency Radio Recombination Lines</b><br> Radio Recombination lines are the type of spectral features due to electron transitions in a Rydberg atom (excited atom with atleast one electron in a high principal quantum number). These lines help understand the star formation and measurement of density and temperature of the surrounding gas. Low frequency radio recombination lines (<150 MHz) in Carbon and Hydrogen are of particular interest, as they have been considered a possible foregrounds in the redshifted 21cm measurements from Cosmic Dawn and Epoch of Reionization.
-								I use data from EDGES (Experiment to Detect the Global Epoch of Reionization Signal -- deployed in Western Australia), to detect these unique spectral signatures and study their effects on both global and power spectrum measurements of the redshifted 21cm signal.
-							</p>
-							<p>
-								<b>Beam Calibration of LWA using Pulsar Gating</b><br>One of my major research interest is studying the phase of the Universe during formation of the first stars and galaxies, roughly 300 Myr after Big Bang. The Hydrogen spin-flip transition resulting in emission of radiation at a rest wavelegth of 21 cm (and rest frequency of 1420 MHz) is one of the most versatile observable of the early epochs, redshifted to radio frequency range (z=6-30, 50-200 MHz). Although in principle, this is a measureable signal, but in practice, it is extremely challenging due to terrestrial radio frequency interference, very bright foregrounds, ionospheric effects, and instrumental effects. Currently, we are limited by engineering challenges to achieve this extremely precise measurement (signal is order of 6-8 magnitude fainter than the foreground -- popularly described as "trying to listen to a hummingbird sing in the middle of a hurricane!").
-								<br>For current generation ground-based radio interferometers aiming this measurement, one of biggest shortcomings is understanding the instrumental systematics. In particular, a precise understanding of the antenna beam is demanded. I work with Very Large Array (VLA), Long Wavelength Array (LWA) in New Mexico and LWA in Owen's Valley Radio Observatory (OVRO-LWA) for making beam mapping measurements that will help improve our understanding of the instrument and find spectral features that affect EoR and Cosmic Dawn experiments.
-								 To do this, I am currently building a novel Pulsar Gating method of beam calibration, that helps map the average antenna beam of an interferometer in spatial and spectral axes.
-							</p>
-							<p>
-								<b>Measurement of Neutron lifetime using Space based Neutron Spectrometer</b><br> Neutron, although being one of the fundamental particles that make up the matter, is still not very well understood. Experimental particle physicists have been trying to measure the lifetime of a free neutron particle for decades now, using two independent methods (counting the number of neutrons or counting the number of beta-decay products, as a function of time), that produce two different results which are over 5-standard deviations apart. 
-								This discrepancy is not explained by systematic or statistical errors. More importantly, the mere 9-sec difference in these two measurements has significant impact in our understanding of Big Bang Nucleosynthesis and primordial He abundance. A precise measurement will not only help place limits on physics beyond the standard model but also finally settle the long standing debate! 
-								<br>As a Graduate Research Associate at Los Alamos National Lab, I am helping develop a third independent measurement using data from the Lunar Prospector (LP) mission. The LP was in orbit around moon between Jan 1998 to July 1999, and provides the Moon as a unique test bed for this measurement with its two neutron spectrometers on-board. We make use of interactions between Cosmic rays and the lunar sub-surface that emit gravitationally bound neutrons. I am using a monte-carlo based particle simulation code to model the neutron spectra and spacecraft, and use a Bayesian model based statistical method to arrive at the neutron lifetime.
-							</p>
-							<p>
-								<b>Publications and Writing Samples:</b> <br>
-								5. VLA 4-band beam width measurement using the holography observing mode (<a href =https://loco.lab.asu.edu/loco-memos/loco052.pdf> LoCo Memo #52, </a>  <a href = https://library.nrao.edu/public/memos/evla/EVLAM_228.pdf> EVLA Memo #228) </a> <br>
-								4. Observing Campaign for LWA Beam measurements <a href =https://loco.lab.asu.edu/loco-memos/loco051.pdf> (LoCO Memo #51) </a><br>
-								3. Sensitivity analysis of pulsar beam mapping with the LWA and VLA <a href = https://loco.lab.asu.edu/loco-memos/loco050.pdf> (LoCo Memo #50) </a> <br>
-
-								2. Beam Mapping of LWA using Pulsar Gating <a href = https://loco.lab.asu.edu/loco-memos/loco049.pdf> (LoCo Memo #49) </a> <br>
-								1. Low-Frequency Radio Recombination Lines Away From the Inner Galactic Plane <a href= https://iopscience.iop.org/article/10.3847/1538-3881/ad08ba/pdf> (The Astronomical Journal)</a> <br>
-							</p>
-
-		
-						</article>
-
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-							<span class="image main">
-								<img src="images/sundial celebration.JPG" alt=""/>
-							</span>
-				
-							<p>
-								<b>Teaching:</b> <br>
-								<b>1. Summer Sundial-2021 and Summer Sundial 2023</b> <br>
-								I helped design and teach a 2-week Astrophysics bootcamp for freshmen undergrads majoring in Maths, Physics and Astrophysics. Here's a <a href ="https://youtu.be/zqprkNApiK0">short video</a> on it.<br>
-								<b>2. Astro-India Program </b><br>
-								I work with three other Astrophysics grad students at SESE to design a 12 week Astrophysics curriculum for high-school students in India, who have little to no access to Astrophysics lessons or related career opportunitis.  
-								<br><b>3. Radio Astronomy Bootcamp</b><br>
-								I helped design and teach a week long evening class introducing Radio Astronomy (python based data analysis techniques and Fourier transforms in particular) to undergraduate students. 
-							</p>
-										<span class="image main">
-								<img src="images/RA_bootcamp.jpg" alt=""/>
-							</span>
-							<p>
-								<b>Outreach:</b> <br>
-								1. Podcast on pivoting career from Engineering to Astrophysics: <a href ="https://open.spotify.com/episode/5cwZB5A3I3GVmGQATgfVoI?si=IEvH31h8RVGoypmGalkzUg&utm_source=copy-link&nd=1"> Engineer turned Astrophysicist </a><br>
-								2. Interview on Understanding the Early Universe using 21cm signal <a href="https://forestvoicesofindia.com/2023/10/13/the-early-universe-with-akshatha-vydula/"> Forest Voices of India </a><br>
-								3. SESE Outreach: I help organize outreach activities for Low Frequency Cosmology lab at the SESE public engagement events. There are typically 2 events/semester.
-
-							</p>
-
-							<p>
-								<b> Grad School Resources</b> <br>
-								1. Megasheet for shortlisting and applying for schools to pursue graduate studies <a href = https://docs.google.com/spreadsheets/d/1caCiPw9SUF2bFB8wMgFPLeZo3s-7ne7o/edit?usp=share_link&ouid=105074939679655579913&rtpof=true&sd=true> (sample only) </a> <br>
-
-								
-							</p>
-								<!--<a href = "https://youtu.be/RjwWcvcrDtY"> What we do at LoCo </a>><br>
-							</p>
-							<p>
-								<b>Volunteering:</b> <br>
-								1. Broadmor Science Fair Judge - 03/15/2022
-							</p>
-							<!--<p>
-								<b>Equity & Inclusion:</b>
-							</p>-->
-						</article>
-
-						</article>
-
-						<!-- Here is the "Community" card. -->
-						<article id="meetings">
-							<h2 class="major">Meetings</h2>
-							<span class="image main">
-								<img src="images/aas_jan_2023.JPG" alt=""/>
-							</span>
-				
-							<p>
-								<b>This page is a log of meetings/workshops/conferences/site visits I have participated in.</b> <br>
-
-								13. Annular Solar Eclipse watch party - Oct 14, 2023 - Kanab UT <br>
-								12. <a href = "https://web.cvent.com/event/dbd4f8b5-7de5-4ed1-88c5-66dee8e67ec4/websitePage:6bbf1462-9f9f-4204-bd93-36032f793bc4"> 19th Synthesis Imaging Workshop </a> - Jun 12-22, 2023 - NRAO Charlottesville, VA <br>
-								11. <a href = "https://leo.phys.unm.edu/~lwa/users23.html"> LWA Users Meeting 2023 </a> Jun 2-3, 2023 - University of New Mexico, Albuquerque NM <br>
-								10. VLA 4-band beam measurement campaign (using holography) - May 29 -Jun 1, 2023 - NRAO Array Operations Center, Socorro NM</br>	
-								9. LWA single dipole beam measurement campaign with Drones (part of ECHO/External Calibrator for Hydrogen Observatories) - May 22-27, 2023 - Owens Valley Radio Observatory CA <br>
-								8. <a href = "http://www.aoc.nrao.edu/events/nmsymposium/2022/"> 38th Annual New Mexico Symposium </a> - Feb 17, 2023 - NRAO Array Operations Center, Socorro NM <br>
-								7. Beam workshop for the Long Wavelength Array (part of Beam Dream Team series of meetings) - Jan 18-22, 2023 - Owens Valley Radio Observatory CA <br>
-								6. <a href= "https://aas.org/meetings/aas241"> 241st AAS Winter Meeting </a> - Jan 8-12,2023 - Seattle WA <br>
-								5. <a href= "https://global21cmworkshop.org/2022-berkeley/"> 5th Global 21cm Workshop </a> - Oct 17-20 - UC Berkeley CA <br>
-
-								4. Intelligent Space Research-1 (Space Science and Applications) Colloquium - Jul 19, 2022 - Los Alamos NM<br>
-								3. Front-end electronics upgrades for LWA - Nov 2021 - Owens Valley Radio Observatory CA <br>
-								2. SESE Annual Symposium - Aug 18, 2021, SESE ASU - Tempe, AZ<br>
-
-								1. Los Alamos National Lab Summer Symposium - Aug 3-4, 2021, Los Alamos, NM <br>
-						</article>
-
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<p> 
-								<b>Email:</b> <a href= "vydula@asu.edu"> vydula@asu.edu</a>
-							</p>
-							<p> 
-								<b>Address:</b> Office 670, ISTB4, 781 Terrace Mall Tempe, Arizona 85281
-							</p>
-
-							<!-- 	Here are the fancy icons that link to your social media.
-								These icons are rendered using Font Awesome fonts, and you can find more icons
-								here: https://fontawesome.com/icons
-							-->
-							<ul class="icons">
-								<!-- The Twitter icon -->
-								<li>
-									<a href="https://isearch.asu.edu/profile/3644876" class="icon fa-graduation-cap">
-										<span class="label">ASU iSearch</span>
-									</a>
-								</li>
-								<li>
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<a href="https://www.linkedin.com/in/akshatha-k-vydula-930316136" class="icon fa-linkedin">
-										<span class="label">LinkdIn</span>
-									</a>
-								</li>
-								<!-- The Facebook icon 
-								<li>
-									<a href="#" class="icon fa-facebook">
-										<span class="label">Facebook</span>
-									</a>
-								</li> -->
-								<!-- The Instagram icon 
-								<li>
-									<a href="#" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a>
-								</li> -->
-
-								<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/akvydula" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<li>
-									<a href="https://akshatha-vydula.medium.com" class="icon fa-medium">
-										<span class="label">Medium</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
-
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
-							</ul>
-						</article>
-					</div>
-
-					<!-- This is the footer that appears at the bottom of the page 
-					<footer id="footer">
-							You can change "Untitled" to your name to show everyone that
-							this is your work.
-						
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-					-->
-
-			</div>
-
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
-			<div id="bg"></div>
-
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+        <div class="section" id="meetings">
+            <h2 class="major">Meetings</h2>
+            <img src="images/aas_jan_2023.JPG" alt=""/>
+            <p><b>This page is a log of meetings/workshops/conferences/site visits I have participated in:</b><br>
+                13. Annular Solar Eclipse watch party
