@@ -1,436 +1,370 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
-	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>AkshathaVydula</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<!-- The body is the location where your site's content will go -->
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Akshatha K Vydula | Research &amp; Community</title>
+	<link rel="stylesheet" href="assets/css/portfolio.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Karla:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+	<header class="site-header">
+		<div class="header-inner">
+			<a href="#home" class="site-name">Akshatha K Vydula</a>
+			<nav class="main-nav" aria-label="Main">
+				<ul>
+					<li><a href="#home" data-tab="home">Home</a></li>
+					<li><a href="#research" data-tab="research">Research</a></li>
+					<li><a href="#community" data-tab="community">Community</a></li>
+					<li><a href="#references" data-tab="references">References</a></li>
+					<li><a href="#resources" data-tab="resources">Resources</a></li>
+					<li><a href="#meetings" data-tab="meetings">Meetings</a></li>
+					<li><a href="#hobbies" data-tab="hobbies">Hobbies</a></li>
+					<li><a href="#contact" data-tab="contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
-			<div id="wrapper">
-
-					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
-						<!-- This is the main content of the front page -->
-						<div class="content">
-							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Akshatha K Vydula
-								</h1>
-								<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
-
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
-								<img src="images/akshatha_VLA.jpg" style="width:240px; height:360px; object-fit: cover;">
-								<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
-								<p>
-									Postdoctoral Researcher <br> University of Richmond
-								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="images/Ak_Vydula_CV_Oct_2025.pdf" target="_blank">Click here for Curriculum Vitae</a>
-								</p>
-							</div>
-						</div>
-						<!-- This is the navigation menu -->
-						<nav>
-							<!-- This element makes an "Unordered List" -->
-							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
-									<a href="#about">About Me</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-								<li>
-									<a href="#community">Community</a>
-								</li>
-
-								<li>
-									<a href="#meetings">Meetings</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
-							</ul>
-						</nav>
-					</header>
-
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
-					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<span class="image main">
-								<img src="images/mountain.jpg" alt=""/>
-							</span>
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
-							<p>
-								<!-- Items contained in <b> tags are bolded! -->
-			
-								<b>Education:</b>
-								I grew up in a small town in Karnataka, India. I went to high school in Raichur, and then moved to Bengaluru for my undergrad in Electronics & Comminication Enginnering at RV College of Engineering. I graduated in 2020 ranking 3rd in the University, with my thesis on 'Search for Galactic and high redshift absorption lines with LOFAR'.
-								 I then moved to Tempe Arizona, where I got a Ph.D. in Astrophysics from the <a href="https://loco.lab.asu.edu"> School of Earth and Space Exploration</a>, Arizona State University. I am currently a <a href= https://physics.richmond.edu/faculty/avydula/"> Postdoctoral Researcher </a>aat University of Richmond. 
-							</p>
-							<p>
-								<b>Research Interests:</b>
-								I am a Radio Astronomer and Experimental Cosmologist studying the behavior of the first stars and galaxies during the Epoch of Reionization and Cosmic Dawn. My work involves developing precise models and statistical techniques to extract extremely faint signals from noisy data.
-								 <br>
-						
-							</p>
-							<p>
-								<b>Outside Work:</b>
-							I love the outdoors! When I’m not analyzing radio astronomical data, you’ll likely find me hiking, backpacking, or doing something adventurous -like skydiving. Through my husband, I’ve also developed an interest in cars and racing (see <a href= https://86challenge.us> 86Challenge</a> and <a href = https://www.youtube.com/@404nobrakes> 404:Brakes Not Found</a>).
-							I’m passionate about espresso and enjoy getting technical about it. My ideal shot comes from a freshly medium-roasted coffee (preferably from a local roastery), extracted at a 2.25 ratio in about 26–32 seconds.
-							I have a soft spot for ’60s music and rarely miss my daily NPR Up First. I also enjoy Carnatic fusion and am currently training in Hindustani semi-classical vocals.
-						        </p>
-						</article>
-
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<span class="image main">
-								<img src="images/lwa_field.jpg" alt=""/>
-							</span>
-
-							<p>
-							<b> Cosmic Dawn and Epoch of Reionization</b> <br>
-
-    One of my primary research interests is the phase of the Universe when the first stars and galaxies formed, roughly 300 million years after the Big Bang.
-  </p>
-
-  <p>
-    The hydrogen spin–flip transition, which emits radiation at a rest wavelength of <strong>21 cm</strong> (rest frequency <strong>1420 MHz</strong>), is a powerful probe of these early epochs. 
-	  Redshifted into the radio band (approximately <em>z</em> ≈ 6–30, or 50–200 MHz), this signal encodes information about the thermal and ionization history of the intergalactic medium.
-  </p>
-
-  <p>
-    In practice, detecting this cosmological signature is extremely challenging. Terrestrial radio-frequency interference, bright astrophysical foregrounds, ionospheric distortions, and instrumental systematics all complicate the measurement. 
-	  The target signal is roughly <strong>6–8 orders of magnitude fainter</strong> than the foregrounds—aptly described as “trying to hear a hummingbird in the middle of a hurricane.”
-  </p>
-
-  <p>
-    Towards this scientific endeavor, I am a member of the <a href="https://loco.lab.asu.edu/edges/" target="_blank" rel="noopener noreferrer">EDGES Collaboration</a>. The <em>Experiment to Detect the Global Epoch of Reionization Signature (EDGES)</em> is a single-antenna, low-frequency radio experiment designed to study Cosmic Dawn and the Epoch of Reionization. 
-	  EDGES is deployed at Inyarrimanha Ilgari Bundara, the CSIRO Murchison Radio-astronomy Observatory. I primarily work with <strong>EDGES-3</strong>, which began operating in November 2022 following substantial hardware and software upgrades.
-  </p>
-
-
-							<span class="image main">
-								<img src="images/akshatha_and_edges.jpg" alt=""/>
-							</span>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-
-								-->
-							<p>
-							<b> Absolutely Calibrated Sky Map at 310 MHz </b><br> 
-
-							<p>
-    Sky maps are among the most fundamental datasets for understanding the night sky. In radio astronomy, such maps are essential for virtually all scientific studies. However, at very low radio frequencies (around meter wavelengths), we currently lack an absolutely calibrated map with a well-defined zero level.
-  </p>
-
-  <p>
-    I collaborate with researchers at the University of Richmond and the National Radio Astronomy Observatory in Northern Virginia to address this gap. Using the <strong>Green Bank Telescope</strong>—the world’s largest fully steerable radio telescope—located in Green Bank, West Virginia, we are developing a new sky map at <strong>310 MHz</strong> with a custom-designed feed and receiver system.
-  </p>
-							</p>
-								<b>Low Frequency Radio Recombination Lines</b><br> Radio Recombination lines are the type of spectral features due to electron transitions in a Rydberg atom (excited atom with atleast one electron in a high principal quantum number). These lines help understand the star formation and measurement of density and temperature of the surrounding gas. Low frequency radio recombination lines (<150 MHz) in Carbon and Hydrogen are of particular interest, as they have been considered a possible foregrounds in the redshifted 21cm measurements from Cosmic Dawn and Epoch of Reionization.
-								I use data from EDGES to detect these unique spectral signatures and study their effects on both global and power spectrum measurements of the redshifted 21cm signal.
-							</p>
-							
-							<p>
-								<b>Beam Calibration of LWA using Pulsar Gating</b><br>
-								<br>For current generation ground-based radio interferometers aiming precision measurements, one of biggest shortcomings is understanding the instrumental systematics. In particular, a precise understanding of the antenna beam is demanded. I work with Very Large Array (VLA), Long Wavelength Array (LWA) in New Mexico and LWA in Owen's Valley Radio Observatory (OVRO-LWA) for making beam mapping measurements that will help improve our understanding of the instrument and find spectral features that affect EoR and Cosmic Dawn experiments.
-								 To do this, I have done some preliminary study of a novel Pulsar Gating method of beam calibration, that helps map the average antenna beam of an interferometer in spatial and spectral axes.
-							</p>
-							<p>
-								<b>Measurement of Neutron lifetime using Space based Neutron Spectrometer</b><br> Neutron, although being one of the fundamental particles that make up the matter, is still not very well understood. Experimental particle physicists have been trying to measure the lifetime of a free neutron particle for decades now, using two independent methods (counting the number of neutrons or counting the number of beta-decay products, as a function of time), that produce two different results which are over 5-standard deviations apart. 
-								This discrepancy is not explained by systematic or statistical errors. More importantly, the mere 9-sec difference in these two measurements has significant impact in our understanding of Big Bang Nucleosynthesis and primordial He abundance. A precise measurement will not only help place limits on physics beyond the standard model but also finally settle the long standing debate! 
-								<br>As a Graduate Research Associate at Los Alamos National Lab, I have made a space-based measurement using data from the Lunar Prospector (LP) mission. The LP was in orbit around moon between Jan 1998 to July 1999, and provides the Moon as a unique test bed for this measurement with its two neutron spectrometers on-board. This technique makes use of interactions between Cosmic rays and the lunar sub-surface that emit gravitationally bound neutrons. I am using a monte-carlo based particle simulation code to model the neutron emission from the lunar surface. This combined with the orbital information of the spacecraft can be used to deduce the neutron lifetime. The study on effects of lunar surface compositions and temperatures on the measurement of neutron lifetime is the most detailed study of such systematic uncertainties to date.
-							</p>
-							<p>
-								<b>Publications and Writing Samples:</b> <br>
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="images/publication_list.pdf" target="_blank">Click here for the full publication list.</a><br>
-								</p>
-							Some examples: <br>
-								5. VLA 4-band beam width measurement using the holography observing mode (<a href =https://loco.lab.asu.edu/loco-memos/loco052.pdf> LoCo Memo #52, </a>  <a href = https://library.nrao.edu/public/memos/evla/EVLAM_228.pdf> EVLA Memo #228) </a> <br>
-								4. Observing Campaign for LWA Beam measurements <a href =https://loco.lab.asu.edu/loco-memos/loco051.pdf> (LoCO Memo #51) </a><br>
-								3. Sensitivity analysis of pulsar beam mapping with the LWA and VLA <a href = https://loco.lab.asu.edu/loco-memos/loco050.pdf> (LoCo Memo #50) </a> <br>
-
-								2. Beam Mapping of LWA using Pulsar Gating <a href = https://loco.lab.asu.edu/loco-memos/loco049.pdf> (LoCo Memo #49) </a> <br>
-								1. Low-Frequency Radio Recombination Lines Away From the Inner Galactic Plane <a href= https://iopscience.iop.org/article/10.3847/1538-3881/ad08ba/pdf> (The Astronomical Journal)</a> <br>
-							</p>
-
-		
-						</article>
-
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-							<span class="image main">
-								<img src="images/sundial celebration.JPG" alt=""/>
-							</span>
-				
-							<p>
-								<b>Teaching:</b> <br>
-								<b>1. Summer Sundial-2021 and Summer Sundial 2023</b> <br>
-								I helped design and teach a 2-week Astrophysics bootcamp for freshmen undergrads majoring in Maths, Physics and Astrophysics. Here's a <a href ="https://youtu.be/zqprkNApiK0">short video</a> on it.<br>
-								<b>2. Astro-India Program </b><br>
-								I work with three other Astrophysics grad students at SESE to design a 12 week Astrophysics curriculum for high-school students in India, who have little to no access to Astrophysics lessons or related career opportunitis.  
-								<br><b>3. Radio Astronomy Bootcamp</b><br>
-								I helped design and teach a week long evening class introducing Radio Astronomy (python based data analysis techniques and Fourier transforms in particular) to undergraduate students. 
-							</p>
-										<span class="image main">
-								<img src="images/RA_bootcamp.jpg" alt=""/>
-							</span>
-							<p>
-								<b>Outreach:</b> <br>
-								1. Podcast on pivoting career from Engineering to Astrophysics: <a href ="https://open.spotify.com/episode/5cwZB5A3I3GVmGQATgfVoI?si=IEvH31h8RVGoypmGalkzUg&utm_source=copy-link&nd=1"> Engineer turned Astrophysicist </a><br>
-								2. Interview on Understanding the Early Universe using 21cm signal <a href="https://forestvoicesofindia.com/2023/10/13/the-early-universe-with-akshatha-vydula/"> Forest Voices of India </a><br>
-								3. SESE Outreach: I help organize outreach activities for Low Frequency Cosmology lab at the SESE public engagement events. There are typically 2 events/semester.
-
-							</p>
-										<span class="image main">
-								<img src="images/glb_talk_invitation.JPG" alt=""/>
-							</span>
-							<span class="image main">
-								<img src="images/glb_media_english.JPG" alt=""/>
-							</span>
-							<span class="image main">
-								<img src="images/glb_media_kannada.JPG" alt=""/>
-							</span>
-							<span class="image main">
-								<img src="images/glb_media.JPG" alt=""/>
-							</span>
-							<p>
-								<b>Public Talks:</b> <br>
-								1. Studying Early Universe using Low Frequency Radio Telescopes at <b>Grad-to-Grad Colloquium</b>b>, Dept. of Physics, ASU (Apr 29, 2022) <br>
-								2. Studying Early Universe as an Engineer turned Radio Astronomer at the <b>Cosmic Chronicles talk series</b>, RV College of Engineering, India (Sep 6, 2022) <br>
-								3. Space Archaeology: Using 21cm signal to study the early Universe at <b>Annular Solar Eclipse 2023 county science outreach</b>, Kanab Utah (Oct 14, 2023) <br>
-								4. Studying Cosmic Dawn using remote Radio telescopes at <b>Gulbarga Science Center, India</b> (Oct 8, 2024)<br>
-								5. A Day in a life of a Radio Astronomer at RV College of Engineering (Oct 15, 2024) <br>
-								6. Space Archaeology : Studying early Universe using remote radio telescopes at <a href = https://www.meetup.com/sj-astronomy/events/303877624> San Jose Astronomy Association </a> (Oct 19, 2024) <br>
-								7. Radio Astronomy techniques to measure the Global 21cm signal from the early Universe <b>Karnataka Physics Teachers Association</b> (Nov 24, 2024)
-							</p>
-
-							<span class="image main">
-								<img src="images/akshatha_and_kids.jpg" alt=""/>
-							</span>
-
-							<p>
-								<b> Grad School Resources</b> <br>
-								1. Megasheet for shortlisting and applying for schools to pursue graduate studies <a href = https://docs.google.com/spreadsheets/d/1caCiPw9SUF2bFB8wMgFPLeZo3s-7ne7o/edit?usp=share_link&ouid=105074939679655579913&rtpof=true&sd=true> (sample only) </a> <br>
-
-								
-							</p>
-								<!--<a href = "https://youtu.be/RjwWcvcrDtY"> What we do at LoCo </a>><br>
-							</p>
-							<p>
-								<b>Volunteering:</b> <br>
-								1. Broadmor Science Fair Judge - 03/15/2022
-							</p>
-							<!--<p>
-								<b>Equity & Inclusion:</b>
-							</p>-->
-						</article>
-
-						</article>
-
-						<!-- Here is the "Community" card. -->
-						<article id="meetings">
-							<h2 class="major">Meetings</h2>
-							<span class="image main">
-								<img src="images/aas_jan_2023.JPG" alt=""/>
-							</span>
-				
-							<p>
-								<b>This page is a log of meetings/workshops/conferences/site visits I have participated in.</b> <br>
-								
-								32. LuSEE-Night Collaboration Meeting, Space Science Laboratory, Berkeley CA - Mar 26-27, 2026 <br>
-								31. Experimental Frontiers in Low-Frequency Radio Cosmology, Vassar College, Poughkeepsie NY - Feb 27, 2026 <br>
-								30. <a href = "https://groups.io/g/raclub/topic/the_invisible_universe_with/117721194"> The Invisible Universe </a>, Richmond Astronomy Club - Feb 10, 2026 <br>
-								29. <a href = "https://astro.umbc.edu/MARLAM2025/schedule.html"> MARLAM2025</a>, George Washington University, Washington DC - Jan 28, 2026 <br>
-								28. First On-sky measurements of 310MHz receiver, Green Bank Observatory, WV - Jan 12-16, 2026 <br>
-								27. <a href ="https://submissions.mirasmart.com/AAS247/Itinerary/SearchHome.aspx?s=vydula"> 247th AAS meeting, Phoenix AZ</a> - Jan 4-8, 2026 <br>
-	
-								26. RFI testing for 310MHz receiver, Green Bank Observatory, WV - Oct 28, 2025 <br>
-								25. University of Richmond <a href = "https://physics.richmond.edu"> Department of Physics</a> Colloquium - Oct 22, 2025 <br>
-								24. <a href = "https://sites.google.com/asu.edu/8g21cmworkshop"> 8th Global 21cm Workshop</a>, Caltech, Pasadena - Sep 22-25, 2025 <br>
-								23. <a href = "https://indico.global/event/13909/page/4365-invited-speakers"> New Avenues in Particle Cosmology</a>, Winchester UK (May 20, 2025) 
-								22. 2025 National Radio Science Meeting, Boulder, CO - Jan 7-10, 2025
-								21. Radio Astronomy techniques to measure the Global 21cm signal from the early Universe <b>Karnataka Physics Teachers Association</b> (Nov 24, 2024) <br>
-								20. San Jose Astronomy Association <a href = "https://www.sjaa.net/programs/monthly-guest-speakers/past-guest-speakers/"> (SJAA) </a> Oct 19, 2024 <br>
-								19. A Day in a life of a Radio Astronomer at RV College of Engineering (Oct 15, 2024) <br>
-								18. Studying Cosmic Dawn using remote Radio telescopes at <b>Gulbarga Science Center, India</b> (Oct 8, 2024)<br>
-								17. <a href = "https://sites.google.com/view/global-21-cm-workshop/talk-slides?authuser=0"> 7th Global 21cm Workshop</a>, Raman Research Institute, Bengaluru - Sep 30-Oct 04, 2024
-								16. Caltech Lunch Seminar - July 9, 2024 <br>
-								15. Space Archaeology: Using 21cm signal to study the early Universe at <b>Annular Solar Eclipse 2023 county science outreach</b>, Kanab Utah (Oct 14, 2023) <br>
-								14. <a href = "https://web.cvent.com/event/dbd4f8b5-7de5-4ed1-88c5-66dee8e67ec4/websitePage:6bbf1462-9f9f-4204-bd93-36032f793bc4"> 19th Synthesis Imaging Workshop </a> - Jun 12-22, 2023 - NRAO Charlottesville, VA <br>
-								13. <a href = "https://leo.phys.unm.edu/~lwa/users23.html"> LWA Users Meeting 2023 </a> Jun 2-3, 2023 - University of New Mexico, Albuquerque NM <br>
-								12. VLA 4-band beam measurement campaign (using holography) - May 29 -Jun 1, 2023 - NRAO Array Operations Center, Socorro NM</br>	
-								11. LWA single dipole beam measurement campaign with Drones (part of ECHO/External Calibrator for Hydrogen Observatories) - May 22-27, 2023 - Owens Valley Radio Observatory CA <br>
-								10. <a href = "http://www.aoc.nrao.edu/events/nmsymposium/2022/"> 38th Annual New Mexico Symposium </a> - Feb 17, 2023 - NRAO Array Operations Center, Socorro NM <br>
-								9. Beam workshop for the Long Wavelength Array (part of Beam Dream Team series of meetings) - Jan 18-22, 2023 - Owens Valley Radio Observatory CA <br>
-								8. <a href= "https://aas.org/meetings/aas241"> 241st AAS Winter Meeting </a> - Jan 8-12,2023 - Seattle WA <br>
-								7. <a href= "https://global21cmworkshop.org/2022-berkeley/"> 5th Global 21cm Workshop </a> - Oct 17-20 - UC Berkeley CA <br>
-								6. Studying Early Universe as an Engineer turned Radio Astronomer at the <b>Cosmic Chronicles talk series</b>, RV College of Engineering, India (Sep 6, 2022) <br>
-								5. Intelligent Space Research-1 (Space Science and Applications) Colloquium - Jul 19, 2022 - Los Alamos NM<br>
-								4. Studying Early Universe using Low Frequency Radio Telescopes at <b>Grad-to-Grad Colloquium</b>b>, Dept. of Physics, ASU (Apr 29, 2022) <br>
-								3. Front-end electronics upgrades for LWA - Nov 2021 - Owens Valley Radio Observatory CA <br>
-								2. SESE Annual Symposium - Aug 18, 2021, SESE ASU - Tempe, AZ<br>
-
-								1. Los Alamos National Lab Summer Symposium - Aug 3-4, 2021, Los Alamos, NM <br>
-
-								
-								
-								
-								
-																
-						</article>
-
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<p> 
-								<b>Email:</b> <a href= "akshatha.vydula@richmond.edu"> akshatha.vydula@richmond.edu</a>
-							</p>
-							<p> 
-								<b>Address:</b> University of Richmond <br>
-									Gottwald Center for the Sciences, Room D114A <br>
-											Richmond, VA 23173
-
-							</p>
-
-							<!-- 	Here are the fancy icons that link to your social media.
-								These icons are rendered using Font Awesome fonts, and you can find more icons
-								here: https://fontawesome.com/icons
-							-->
-							<ul class="icons">
-								<!-- The Twitter icon -->
-								<li>
-									<a href="https://physics.richmond.edu/faculty/avydula/" class="icon fa-graduation-cap">
-										<span class="label">UR Faculty</span>
-									</a>
-								</li>
-								<li>
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<a href="https://www.linkedin.com/in/akshatha-k-vydula-930316136" class="icon fa-linkedin">
-										<span class="label">LinkdIn</span>
-									</a>
-								</li>
-								<!-- The Facebook icon 
-								<li>
-									<a href="#" class="icon fa-facebook">
-										<span class="label">Facebook</span>
-									</a>
-								</li> -->
-								<!-- The Instagram icon 
-								<li>
-									<a href="#" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a>
-								</li> -->
-
-								<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/akvydula" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<li>
-									<a href="https://akshatha-vydula.medium.com" class="icon fa-medium">
-										<span class="label">Medium</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
-
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
-							</ul>
-						</article>
-					</div>
-
-					<!-- This is the footer that appears at the bottom of the page 
-					<footer id="footer">
-							You can change "Untitled" to your name to show everyone that
-							this is your work.
-						
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-					-->
-
+	<main class="main-content">
+		<!-- HOME -->
+		<section id="home" class="panel active" data-panel="home">
+			<div class="hero hero-two-col">
+				<div class="hero-text">
+					<h1 class="hero-title">Akshatha K Vydula</h1>
+					<p class="hero-subtitle">Postdoctoral Researcher · University of Richmond</p>
+				<p class="hero-bio">I primarily specialize in observational cosmology and study Cosmic Dawn and the Epoch of Reionization using low-frequency radio telescopes. I am also currently leading the efforts for making a low-frequency skymap using Green Bank Telescope with a custom feed and receiver system. Besides the actual scientific discovery part, I find the outreach and making science accessible part equally exciting and gratifying. </p>
+				<p class="hero-about">I grew up in a small town in Karnataka, India, went to high school in Raichur, and moved to Bengaluru for my undergrad in Electronics &amp; Communication Engineering at RV College of Engineering. I graduated in 2020 ranking 3rd in the University, with my thesis on “Search for Galactic and high redshift absorption lines with LOFAR.” I then moved to Tempe, Arizona, where I earned a Ph.D. in Astrophysics from the <a href="https://loco.lab.asu.edu">School of Earth and Space Exploration</a> at Arizona State University. At ASU, my research involved precision measurements of three different science cases at three vastly different dynamical scales: <a href="https://www.proquest.com/docview/3240609468/36CFA39D3313450APQ/3?accountid=14731&amp;sourcetype=Dissertations%20%26%20Theses" target="_blank" rel="noopener">Exploring the Fundamental Physics of the Universe Across Dynamic Scales</a>. I am currently a <a href="https://physics.richmond.edu/faculty/avydula/">Postdoctoral Researcher</a> at University of Richmond.</p>
+				<p>
+					<a href="images/Ak_Vydula_CV_Oct_2025.pdf" target="_blank" rel="noopener" class="btn">Curriculum Vitae</a>
+					<a href="mailto:akshatha.vydula@gmail.com" class="btn btn-outline" style="margin-left: 0.5rem;">Send me a message</a>
+					</p>
+				</div>
+				<div class="hero-image-wrap">
+					<img src="images/akshatha_VLA.jpg" alt="Akshatha Vydula" class="hero-image" />
+				</div>
 			</div>
+		</section>
 
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
-			<div id="bg"></div>
+		<!-- RESEARCH -->
+		<section id="research" class="panel" data-panel="research">
+			<div class="panel-inner">
+				<h2 class="panel-title">Research</h2>
 
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+				<div class="card-grid">
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/lwa_field.jpg" alt="Low frequency radio" />
+							<h3>Cosmic Dawn &amp; Epoch of Reionization</h3>
+							<p>Studying the first stars and galaxies with the 21 cm signal and the EDGES Collaboration.</p>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<div class="card-detail-grid">
+								<span class="image-block"><img src="images/lwa_field.jpg" alt="" /></span>
+								<span class="image-block"><img src="images/akshatha_and_edges.jpg" alt="" /></span>
+							</div>
+							<p>One of my primary research interests is the phase of the Universe when the first stars and galaxies formed, roughly 300 million years after the Big Bang. The hydrogen spin–flip transition (21 cm, 1420 MHz), redshifted into the radio band (<em>z</em> ≈ 6–30, 50–200 MHz), encodes the thermal and ionization history of the intergalactic medium. Detecting this signature is extremely challenging—the signal is <strong>6–8 orders of magnitude fainter</strong> than foregrounds.</p>
+							<p>I am a member of the <a href="https://loco.lab.asu.edu/edges/" target="_blank" rel="noopener noreferrer">EDGES Collaboration</a>. The <em>Experiment to Detect the Global Epoch of Reionization Signature (EDGES)</em> is a single-antenna, low-frequency radio experiment at Inyarrimanha Ilgari Bundara (CSIRO Murchison Radio-astronomy Observatory). I primarily work with <strong>EDGES-3</strong>, which began operating in November 2022.</p>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
 
-	</body>
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/310MHz_feed.jpg" alt="310 MHz feed" />
+							<h3>Absolutely Calibrated Sky Map at 310 MHz</h3>
+							<p>Developing a new low-frequency sky map with the Green Bank Telescope.</p>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<span class="image-block card-detail-img"><img src="images/310MHz_feed.jpg" alt="" /></span>
+							<p>Sky maps are fundamental for radio astronomy, but at very low frequencies we lack an absolutely calibrated map with a well-defined zero level. I collaborate with the University of Richmond and NRAO to address this gap. Using the <strong>Green Bank Telescope</strong> in West Virginia, we are developing a sky map at <strong>310 MHz</strong> with a custom feed and receiver system.</p>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
+
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/RRL.png" alt="Radio Recombination Lines" />
+							<h3>Low Frequency Radio Recombination Lines</h3>
+							<p>Spectral signatures from C and H atoms and their impact on 21 cm measurements.</p>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<span class="image-block card-detail-img"><img src="images/RRL.png" alt="" /></span>
+							<p>Radio Recombination lines (electron transitions in Rydberg atoms) help probe star formation and gas density/temperature. Low frequency RRLs (&lt;150 MHz) in Carbon and Hydrogen are of particular interest as possible foregrounds for Cosmic Dawn and EoR 21 cm measurements. I use EDGES data to detect these signatures and study their effects on global and power-spectrum measurements of the redshifted 21 cm signal.</p>
+							<p>Read more in <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ad08ba/meta" target="_blank" rel="noopener">The Astronomical Journal</a>, or check out the summary on YouTube: <a href="https://youtu.be/m6_xTs73sk8" target="_blank" rel="noopener">AAS Journal Author series</a>.</p>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
+
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/VLA_beam.png" alt="VLA beam" />
+							<h3>Beam Calibration (LWA / VLA)</h3>
+							<p>Pulsar gating and beam mapping for precision EoR and Cosmic Dawn experiments.</p>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<span class="image-block card-detail-img"><img src="images/VLA_beam.png" alt="" /></span>
+							<p>For ground-based interferometers, a precise understanding of the antenna beam is essential. I work with the VLA, LWA (New Mexico), and OVRO-LWA on beam mapping. I have studied a novel <strong>Pulsar Gating</strong> method of beam calibration that maps the average antenna beam in spatial and spectral axes.</p>
+							<p>Read more about this work in the <a href="https://library.nrao.edu/public/memos/evla/EVLAM_228.pdf" target="_blank" rel="noopener">eVLA Memo #228</a>.</p>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
+
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/neutron_lifetime.png" alt="Neutron lifetime" />
+							<h3>Neutron Lifetime (Space-based)</h3>
+							<p>Lunar Prospector data and Monte Carlo modeling for neutron lifetime measurement.</p>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<span class="image-block card-detail-img"><img src="images/neutron_lifetime.png" alt="" /></span>
+							<p>The free neutron lifetime is measured by two methods that disagree by over 5σ—with implications for Big Bang Nucleosynthesis. As a Graduate Research Associate at Los Alamos National Lab, I made a space-based measurement using Lunar Prospector (1998–1999) data. The technique uses cosmic-ray interactions with the lunar subsurface that emit gravitationally bound neutrons. I use Monte Carlo simulations to model neutron emission; combined with orbital information, this constrains the neutron lifetime. My work on lunar surface composition and temperature systematics is the most detailed study of such uncertainties to date.</p>
+							<p>Read more in <a href="https://journals.aps.org/prc/abstract/10.1103/q8jf-dc9b" target="_blank" rel="noopener">Physical Review C</a>.</p>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
+				</div>
+
+				<div class="publications-block">
+					<h3 class="block-heading">Publications</h3>
+					<p>My publication list is maintained on Google Scholar and ORCID and updates as new work is published.</p>
+					<ul class="link-buttons">
+						<li><a href="https://scholar.google.com/citations?user=3jsDHf0AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener" class="btn">Google Scholar</a></li>
+						<li><a href="https://orcid.org/0000-0002-6611-2668" target="_blank" rel="noopener" class="btn btn-outline">ORCID</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- COMMUNITY -->
+		<section id="community" class="panel" data-panel="community">
+			<div class="panel-inner">
+				<h2 class="panel-title">Community</h2>
+
+				<div class="affiliations">
+					<p><strong>Affiliations:</strong></p>
+					<ul>
+						<li><a href="https://comscicon.org/seeds-stories-of-ethics-engagement-and-dialogue-in-science/" target="_blank" rel="noopener">ComSciCon SEEDS</a> — Program Manager, <em>Stories of Ethics, Engagement, and Dialogue in Science</em></li>
+						<li><a href="https://comscicon.org/chapter-workshops/comscicon-flagship-workshop-2025/#organizing-committee" target="_blank" rel="noopener">ComSciCon-Flagship</a> — Programming Committee (2025 &amp; 2026)</li>
+						<li><a href="https://supernovafoundation.org" target="_blank" rel="noopener">Supernova Foundation</a> — Mentor and Podcast host (coming soon)</li>
+					</ul>
+				</div>
+
+				<div class="card-grid">
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/RA_bootcamp.jpg" alt="Radio Astronomy Bootcamp" />
+							<h3>Teaching</h3>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<div class="teaching-grid">
+								<span class="image-block"><img src="images/RA_bootcamp.jpg" alt="" /></span>
+								<span class="image-block"><img src="images/sundial celebration.JPG" alt="Summer Sundial" /></span>
+							</div>
+							<p><strong>Radio Astronomy Bootcamp</strong> — I helped design and teach a week-long evening class on Radio Astronomy (Python, Fourier transforms, data analysis) for undergraduates.</p>
+							<p><strong>Summer Sundial 2021 &amp; 2023</strong> — I helped design and teach a 2-week Astrophysics bootcamp for freshmen in Maths, Physics and Astrophysics. <a href="https://youtu.be/zqprkNApiK0" target="_blank" rel="noopener">Short video</a>.</p>
+							<p><strong>Substitute Teacher for Astronomy 121 class</strong> — I was a substitute teacher for the Astronomy 121 class, offered by University of Richmond. </p>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
+
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/akshatha_and_kids.jpg" alt="Outreach" />
+							<h3>Outreach</h3>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<span class="image-block card-detail-img"><img src="images/akshatha_and_kids.jpg" alt="" /></span>
+							<p><strong>SESE Outreach</strong> — I help organize outreach for the Low Frequency Cosmology lab at SESE public engagement events (typically 2 events/semester).</p>
+							<p><strong>Broadmor Science Fair Judge</strong> (Mar 15, 2022).</p>
+							<p><strong>Public talks:</strong></p>
+							<p>1. Studying Early Universe using Low Frequency Radio Telescopes — <strong>Grad-to-Grad Colloquium</strong>, Dept. of Physics, ASU (Apr 29, 2022)</p>
+							<p>2. Studying Early Universe as an Engineer turned Radio Astronomer — <strong>Cosmic Chronicles</strong>, RV College of Engineering, India (Sep 6, 2022)</p>
+							<p>3. Space Archaeology: 21 cm and the early Universe — <strong>Annular Solar Eclipse 2023</strong> county science outreach, Kanab Utah (Oct 14, 2023)</p>
+							<p>4. Studying Cosmic Dawn using remote Radio telescopes — <strong>Gulbarga Science Center, India</strong> (Oct 8, 2024)</p>
+							<p>5. A Day in the life of a Radio Astronomer — RV College of Engineering (Oct 15, 2024)</p>
+							<p>6. Space Archaeology: early Universe with remote radio telescopes — <a href="https://www.meetup.com/sj-astronomy/events/303877624" target="_blank" rel="noopener">San Jose Astronomy Association</a> (Oct 19, 2024)</p>
+							<p>7. Radio Astronomy techniques for the Global 21 cm signal — <strong>Karnataka Physics Teachers Association</strong> (Nov 24, 2024)</p>
+							<p>For the full list of talks and meetings, check out <a href="#meetings">Meetings</a>.</p>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
+
+					<article class="card" data-card>
+						<div class="card-preview">
+							<img src="images/glb_media_english.JPG" alt="Media" />
+							<h3>Media</h3>
+							<span class="card-toggle">Click for more</span>
+						</div>
+						<div class="card-detail">
+							<figure class="award-figure">
+								<img src="images/glb_award.JPG" alt="Bharat Gaurav Puraskar award" />
+								<figcaption>For contributions to astrophysics and science communication, I was honored with the Bharat Gaurav Puraskar and recognized as one of the 35 Under 35 Non-Resident Indians by the Bharat Vikas Foundation in February 2025. My mother received the award on my behalf.</figcaption>
+							</figure>
+							<p>Podcast: <a href="https://open.spotify.com/episode/5cwZB5A3I3GVmGQATgfVoI?si=IEvH31h8RVGoypmGalkzUg" target="_blank" rel="noopener">Engineer turned Astrophysicist</a> (career pivot).</p>
+							<p>Interview: <a href="https://forestvoicesofindia.com/2023/10/13/the-early-universe-with-akshatha-vydula/" target="_blank" rel="noopener">Understanding the Early Universe using 21 cm signal</a>, Forest Voices of India.</p>
+							<div class="media-grid">
+								<span class="image-block"><img src="images/glb_talk_invitation.JPG" alt="" /></span>
+								<span class="image-block"><img src="images/glb_media_english.JPG" alt="" /></span>
+								<span class="image-block"><img src="images/glb_media_kannada.JPG" alt="" /></span>
+								<span class="image-block"><img src="images/glb_media.JPG" alt="" /></span>
+							</div>
+							<button type="button" class="card-close" aria-label="Close">Close</button>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- REFERENCES -->
+		<section id="references" class="panel" data-panel="references">
+			<div class="panel-inner">
+				<h2 class="panel-title">References</h2>
+				<p class="references-intro">Academic and professional references.</p>
+				<ul class="references-list">
+					<li><a href="https://physics.richmond.edu/faculty/jsingal/" target="_blank" rel="noopener"><strong>Prof. Jack Singal</strong></a>, University of Richmond</li>
+					<li><a href="https://search.asu.edu/profile/1633564" target="_blank" rel="noopener"><strong>Prof. Judd Bowman</strong></a>, Arizona State University</li>
+					<li><a href="https://search.asu.edu/profile/698228" target="_blank" rel="noopener"><strong>Prof. Craig Hardgrove</strong></a>, Arizona State University</li>
+					<li><strong>Dr. Daniel Coupland</strong>, Los Alamos National Laboratory (Email available on request)</li>
+					<li><a href="https://steven-g-murray.netlify.app" target="_blank" rel="noopener"><strong>Dr. Steven Murray</strong></a>, Stellenbosch University</li>
+					<li><a href="https://danielcjacobs.com" target="_blank" rel="noopener"><strong>Prof. Danny Jacobs</strong></a>, Arizona State University</li>
+				</ul>
+				<h3 class="references-subtitle">Past references (pre-PhD)</h3>
+				<ul class="references-list">
+					<li><strong>Prof. Uday Shankar</strong>, Raman Research Institute</li>
+					<li><a href="https://wwws.rri.res.in/htmls/library/imprints_collection/bios/prof_ravi_subrahmanyan.html" target="_blank" rel="noopener"><strong>Prof. Ravi Subrahmanyan</strong></a>, CSIRO</li>
+					<li><a href="https://www.rug.nl/staff/l.v.e.koopmans/?lang=en" target="_blank" rel="noopener"><strong>Prof. dr. L.V.E. (Léon) Koopmans</strong></a>, Kapteyn Astronomical Institute</li>
+					<li><a href="https://www.astron.nl/~vedantham/" target="_blank" rel="noopener"><strong>Dr. Harish K. Vedantham</strong></a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- RESOURCES -->
+		<section id="resources" class="panel" data-panel="resources">
+			<div class="panel-inner">
+				<h2 class="panel-title">Resources</h2>
+				<p class="resources-intro">Open-source tools and links I use or contribute to.</p>
+				<ul class="resource-cards">
+					<li>
+						<a href="https://github.com/edges-collab" target="_blank" rel="noopener" class="resource-card">
+							<strong>EDGES Collaboration</strong>
+							<span>Collection of codes for working with EDGES data (global 21 cm, low-frequency cosmology).</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/akvydula/skymap" target="_blank" rel="noopener" class="resource-card">
+							<strong>310 MHz Sky Map (GBT)</strong>
+							<span>Analysis and visualization tools for the 310 MHz radio sky map using the Green Bank Telescope.</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/lusee-night/luseepy" target="_blank" rel="noopener" class="resource-card">
+							<strong>luseepy</strong>
+							<span>Python utilities for LuSEE-Night related calculations.</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://docs.google.com/spreadsheets/d/1caCiPw9SUF2bFB8wMgFPLeZo3s-7ne7o/edit?usp=share_link&ouid=105074939679655579913&rtpof=true&sd=true" target="_blank" rel="noopener" class="resource-card">
+							<strong>Grad School Megasheet</strong>
+							<span>Sample spreadsheet for shortlisting and applying to graduate programs (sample only).</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- MEETINGS -->
+		<section id="meetings" class="panel" data-panel="meetings">
+			<div class="panel-inner">
+				<h2 class="panel-title">Meetings</h2>
+				<span class="image-block"><img src="images/aas_jan_2023.JPG" alt="" /></span>
+				<p><strong>Log of meetings, workshops, conferences, and site visits.</strong></p>
+				<p class="meetings-list">
+				32. LuSEE-Night Collaboration Meeting, Space Science Laboratory, Berkeley CA - Mar 26-27, 2026<br>
+				31. Experimental Frontiers in Low-Frequency Radio Cosmology, Vassar College, Poughkeepsie NY - Feb 27, 2026<br>
+				30. <a href="https://groups.io/g/raclub/topic/the_invisible_universe_with/117721194">The Invisible Universe</a>, Richmond Astronomy Club - Feb 10, 2026<br>
+				29. <a href="https://astro.umbc.edu/MARLAM2025/schedule.html">MARLAM2025</a>, George Washington University, Washington DC - Jan 28, 2026<br>
+				28. First On-sky measurements of 310MHz receiver, Green Bank Observatory, WV - Jan 12-16, 2026<br>
+				27. <a href="https://submissions.mirasmart.com/AAS247/Itinerary/SearchHome.aspx?s=vydula">247th AAS meeting, Phoenix AZ</a> - Jan 4-8, 2026<br>
+				26. RFI testing for 310MHz receiver, Green Bank Observatory, WV - Oct 28, 2025<br>
+				25. University of Richmond <a href="https://physics.richmond.edu">Department of Physics</a> Colloquium - Oct 22, 2025<br>
+				24. <a href="https://sites.google.com/asu.edu/8g21cmworkshop">8th Global 21cm Workshop</a>, Caltech, Pasadena - Sep 22-25, 2025<br>
+				23. <a href="https://indico.global/event/13909/page/4365-invited-speakers">New Avenues in Particle Cosmology</a>, Winchester UK (May 20, 2025)<br>
+				22. 2025 National Radio Science Meeting, Boulder, CO - Jan 7-10, 2025<br>
+				21. Radio Astronomy techniques to measure the Global 21cm signal from the early Universe <strong>Karnataka Physics Teachers Association</strong> (Nov 24, 2024)<br>
+				20. San Jose Astronomy Association <a href="https://www.sjaa.net/programs/monthly-guest-speakers/past-guest-speakers/">(SJAA)</a> Oct 19, 2024<br>
+				19. A Day in a life of a Radio Astronomer at RV College of Engineering (Oct 15, 2024)<br>
+				18. Studying Cosmic Dawn using remote Radio telescopes at <strong>Gulbarga Science Center, India</strong> (Oct 8, 2024)<br>
+				17. <a href="https://sites.google.com/view/global-21-cm-workshop/talk-slides?authuser=0">7th Global 21cm Workshop</a>, Raman Research Institute, Bengaluru - Sep 30-Oct 04, 2024<br>
+				16. Caltech Lunch Seminar - July 9, 2024<br>
+				15. Space Archaeology: Using 21cm signal to study the early Universe at <strong>Annular Solar Eclipse 2023 county science outreach</strong>, Kanab Utah (Oct 14, 2023)<br>
+				14. <a href="https://web.cvent.com/event/dbd4f8b5-7de5-4ed1-88c5-66dee8e67ec4/websitePage:6bbf1462-9f9f-4204-bd93-36032f793bc4">19th Synthesis Imaging Workshop</a> - Jun 12-22, 2023 - NRAO Charlottesville, VA<br>
+				13. <a href="https://leo.phys.unm.edu/~lwa/users23.html">LWA Users Meeting 2023</a> Jun 2-3, 2023 - University of New Mexico, Albuquerque NM<br>
+				12. VLA 4-band beam measurement campaign (using holography) - May 29-Jun 1, 2023 - NRAO Array Operations Center, Socorro NM<br>
+				11. LWA single dipole beam measurement campaign with Drones (part of ECHO/External Calibrator for Hydrogen Observatories) - May 22-27, 2023 - Owens Valley Radio Observatory CA<br>
+				10. <a href="http://www.aoc.nrao.edu/events/nmsymposium/2022/">38th Annual New Mexico Symposium</a> - Feb 17, 2023 - NRAO Array Operations Center, Socorro NM<br>
+				9. Beam workshop for the Long Wavelength Array (part of Beam Dream Team series of meetings) - Jan 18-22, 2023 - Owens Valley Radio Observatory CA<br>
+				8. <a href="https://aas.org/meetings/aas241">241st AAS Winter Meeting</a> - Jan 8-12, 2023 - Seattle WA<br>
+				7. <a href="https://global21cmworkshop.org/2022-berkeley/">5th Global 21cm Workshop</a> - Oct 17-20 - UC Berkeley CA<br>
+				6. Studying Early Universe as an Engineer turned Radio Astronomer at the <strong>Cosmic Chronicles talk series</strong>, RV College of Engineering, India (Sep 6, 2022)<br>
+				5. Intelligent Space Research-1 (Space Science and Applications) Colloquium - Jul 19, 2022 - Los Alamos NM<br>
+				4. Studying Early Universe using Low Frequency Radio Telescopes at <strong>Grad-to-Grad Colloquium</strong>, Dept. of Physics, ASU (Apr 29, 2022)<br>
+				3. Front-end electronics upgrades for LWA - Nov 2021 - Owens Valley Radio Observatory CA<br>
+				2. SESE Annual Symposium - Aug 18, 2021, SESE ASU - Tempe, AZ<br>
+				1. Los Alamos National Lab Summer Symposium - Aug 3-4, 2021, Los Alamos, NM</p>
+			</div>
+		</section>
+
+		<!-- HOBBIES -->
+		<section id="hobbies" class="panel" data-panel="hobbies">
+			<div class="panel-inner">
+				<h2 class="panel-title">Hobbies</h2>
+				<p><strong>Hiking</strong> · <strong>Cooking</strong> · <strong>Coffee</strong> · <strong>Hindustani semi-classical music</strong></p>
+				<p>I love the outdoors! When I'm not analyzing radio astronomical data, you'll likely find me hiking, backpacking, or doing something adventurous—like skydiving. Through my husband, I've also developed an interest in cars and racing (see <a href="https://86challenge.us">86Challenge</a> and <a href="https://www.youtube.com/@404nobrakes">404:Brakes Not Found</a>). I'm passionate about espresso and enjoy getting technical about it. My ideal shot comes from a freshly medium-roasted coffee (preferably from a local roastery), extracted at a 2.25 ratio in about 26–32 seconds. I have a soft spot for '60s music and rarely miss my daily NPR Up First. I also enjoy Carnatic fusion and am currently training in Hindustani semi-classical vocals.</p>
+				<p>I enjoy a good weekend or a day hike. Here are some of the bucket-list hikes and moments.</p>
+				<div class="hobbies-grid">
+					<span class="image-block"><img src="images/mountain.jpg" alt="Mountain" /></span>
+					<span class="image-block"><img src="images/river_rafting.JPG" alt="River rafting" /></span>
+					<span class="image-block"><img src="images/humphreys.jpeg" alt="Humphreys Peak" /></span>
+					<span class="image-block"><img src="images/angels_landing.jpeg" alt="Angels Landing" /></span>
+					<span class="image-block"><img src="images/auroras.jpeg" alt="Auroras" /></span>
+					<span class="image-block"><img src="images/wheeler_peak.jpeg" alt="Wheeler Peak" /></span>
+					<span class="image-block"><img src="images/coffee.jpeg" alt="Coffee" /></span>
+					<span class="image-block"><img src="images/cooking.jpeg" alt="Cooking" /></span>
+					<span class="image-block"><img src="images/sky_dive.jpg" alt="Skydiving" /></span>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTACT -->
+		<section id="contact" class="panel" data-panel="contact">
+			<div class="panel-inner">
+				<h2 class="panel-title">Contact</h2>
+				<p><strong>Email:</strong> <a href="mailto:akshatha.vydula@richmond.edu">akshatha.vydula@richmond.edu</a></p>
+				<p><strong>Address:</strong><br>University of Richmond<br>Gottwald Center for the Sciences, Room D114A<br>Richmond, VA 23173</p>
+				<ul class="contact-icons">
+					<li><a href="https://physics.richmond.edu/faculty/avydula/" aria-label="UR Faculty">UR Faculty Page</a></li>
+					<li><a href="https://www.linkedin.com/in/akshatha-k-vydula-930316136" aria-label="LinkedIn">LinkedIn</a></li>
+					<li><a href="https://github.com/akvydula" aria-label="GitHub">GitHub</a></li>
+					<li><a href="https://akshatha-vydula.medium.com" target="_blank" rel="noopener" aria-label="Medium articles">Medium — preview my articles</a></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>&copy; Akshatha K Vydula</p>
+	</footer>
+
+	<script src="assets/js/portfolio.js"></script>
+</body>
 </html>
-
-
-
-
